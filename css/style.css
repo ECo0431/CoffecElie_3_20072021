@@ -113,9 +113,6 @@ button, a {
   padding-top: 39px;
   align-items: center;
 }
-.header__box-decouverte--titre {
-  margin-right: 20px;
-}
 @media screen and (min-width: 600px) {
   .header__box-decouverte--titre {
     margin: 20px;
@@ -123,7 +120,7 @@ button, a {
   }
 }
 .header__box-decouverte--txt {
-  margin: 12px 0px 0px 5px;
+  margin: 12px 0px 0px 0px;
 }
 @media screen and (min-width: 600px) {
   .header__box-decouverte--txt {
@@ -221,6 +218,7 @@ button, a {
 
 .main {
   margin-top: 66px;
+  width: 100%;
 }
 .main__article {
   padding: 55px 0px 50px 0px;
