@@ -37,11 +37,20 @@
             flex-direction: column;
             line-height: 24px;
             margin-bottom: 14px;
+            color: black;
         }
         &--box-picto{
+            background-image: url(/sources/picto/picto_coeur.png);
+            background-size: 25px 22px;
+            margin: 7px 24px 0px 0px;
             width: 25px;
             height: 22px;
-            margin: 7px 24px 0px 0px;
+            cursor: pointer;
+
+            &:hover{
+                background-image: url(/sources/picto/picto_coeur_rose.png);
+                background-size: 25px 22px;
+            }
         }
     }
 }

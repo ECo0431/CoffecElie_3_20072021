@@ -108,10 +108,12 @@ button, a {
 
 .header__box-position {
   background-color: #eaeaea;
+  font-size: 0.9em;
   padding: 15px;
 }
 .header__box-position--picto {
   width: 20px;
+  height: 18px;
   margin-right: 11px;
 }
 .header__box-position--txt {
@@ -134,6 +136,7 @@ button, a {
   border-radius: 999px;
   background: linear-gradient(#e872da, #9f5adc);
   color: white;
+  box-shadow: 0px 5px 5px #e0e1e3;
 }
 .header__box-titre {
   margin-top: 86px;
@@ -157,6 +160,9 @@ button, a {
   margin-top: 23px;
   color: black;
 }
+.ul__a:hover {
+  background-color: #f5edff;
+}
 .ul__a--rond {
   background-color: #9356dc;
   color: white;
@@ -166,6 +172,8 @@ button, a {
   position: relative;
   left: -17px;
   top: 0px;
+  font-size: 0.85em;
+  font-family: "Roboto-Light";
 }
 .ul__a--picto {
   width: 22px;
@@ -222,11 +230,19 @@ footer a {
   flex-direction: column;
   line-height: 24px;
   margin-bottom: 14px;
+  color: black;
 }
 .section__box-description--box-picto {
+  background-image: url(/sources/picto/picto_coeur.png);
+  background-size: 25px 22px;
+  margin: 7px 24px 0px 0px;
   width: 25px;
   height: 22px;
-  margin: 7px 24px 0px 0px;
+  cursor: pointer;
+}
+.section__box-description--box-picto:hover {
+  background-image: url(/sources/picto/picto_coeur_rose.png);
+  background-size: 25px 22px;
 }
 
 /*# sourceMappingURL=style.css.map */

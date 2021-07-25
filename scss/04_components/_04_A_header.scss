@@ -2,10 +2,12 @@
     &__box-position{
         @extend %flexCenterH;
         background-color: #eaeaea;
+        font-size: 0.9em;
         
         padding: 15px;
         &--picto{
             width: 20px;
+            height: 18px;
             margin-right: 11px;
         }
         &--txt{
@@ -30,6 +32,7 @@
             border-radius: 999px;
             background: linear-gradient(#e872da, #9f5adc);
             color: white;
+            box-shadow: 0px 5px 5px  #e0e1e3;
         }
     }
     &__box-titre{
@@ -56,6 +59,10 @@
         margin-top: 23px;
         color: black;
 
+        &:hover{
+            background-color: #f5edff;
+        }
+
         &--rond{
             @extend %flexCenterHV;
             background-color: #9356dc;
@@ -66,6 +73,8 @@
             position: relative;
             left: -17px;
             top: 0px;
+            font-size: 0.85em;
+            font-family: $light;
         }
         &--picto{
             width: 22px;
