@@ -1,6 +1,7 @@
 .header{
     &__box-position{
         @extend %flexCenterH;
+        background-color: #eaeaea;
         
         padding: 15px;
         &--picto{
@@ -13,7 +14,7 @@
     }
     &__box-decouverte{
         @extend %flexCenterVCol;
-        background-color: orange;
+        background: linear-gradient(white, #f6f6f6);
         text-align: center;
         padding-top: 39px;
 
@@ -27,10 +28,11 @@
             padding: 15px;
             margin: 32px 75px 20px 82px;
             border-radius: 999px;
+            background: linear-gradient(#e872da, #9f5adc);
+            color: white;
         }
     }
     &__box-titre{
-        background-color: palegreen;
         margin-top: 86px;
         
         &--titre{
@@ -44,19 +46,20 @@
 }
 
 .ul{
-    background-color: rgb(147, 129, 230);
     padding: 0px 20px 0px 32px;
 
     &__a{
-        background-color: lawngreen;
+        box-shadow: 0px 5px 5px  #e0e1e3;
         display: flex;
         padding: 30px 25px 20px 5px;
         border-radius: 20px;
         margin-top: 23px;
+        color: black;
 
         &--rond{
             @extend %flexCenterHV;
-            background-color: pink;
+            background-color: #9356dc;
+            color: white;
             width: 25px;
             height: 25px;
             border-radius: 999px;

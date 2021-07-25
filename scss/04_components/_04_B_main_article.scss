@@ -2,8 +2,8 @@
     margin-top: 66px;
 
     &__article{
-        background-color: yellow;
-        padding-top: 55px;
+        padding: 55px 0px 50px 0px;
+        background-color: #f6f6f6;
 
         &--box-titre{
             margin-left: $margeGauH2;
@@ -13,4 +13,9 @@
             @extend %flexCenterHCol;
         }
     }
+}
+
+footer a{
+    color: white;
+    font-family: $regular;
 }

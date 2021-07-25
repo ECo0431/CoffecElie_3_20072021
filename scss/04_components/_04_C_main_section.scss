@@ -6,7 +6,6 @@
 }
 
 .section{
-    background-color: cornflowerblue;
 
     &__box-img{
         position: relative;
@@ -17,7 +16,8 @@
 
         &--box-nouveau{
             position: absolute;
-            background-color: crimson;
+            background-color: #99e2d0;
+            color: #008766;
             right: 14px;
             top: 14px;
             border-radius: 2px;
@@ -25,22 +25,20 @@
     }
 
     &__box-description{
-        background-color: darkgoldenrod;
+        box-shadow: 0px 5px 5px  #e0e1e3;
         display: flex;
         justify-content: space-between;
         padding: 15px 0px 0px 14px;
-        margin-bottom: 17px;
+        margin: -8px 0px 17px 0px;
         border-radius: 0px 0px 20px 20px;
 
         &--txt{
             display: flex;
             flex-direction: column;
-            background-color: darkturquoise;
             line-height: 24px;
             margin-bottom: 14px;
         }
         &--box-picto{
-            background-color: deeppink;
             width: 25px;
             height: 22px;
             margin: 7px 24px 0px 0px;

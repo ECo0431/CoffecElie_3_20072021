@@ -21,7 +21,7 @@
 }
 
 p{
-    font-family: $regular;
+    font-family: $light;
     font-size: 1.1em;
     letter-spacing: 0.05px;
 }
@@ -34,10 +34,14 @@ h1,h2{
     font-family: $bold;
 }
 
-h3, button, a{
+h3, a{
     font-family: $semiBold;
 }
 
 button, a{
     font-size: 1em;
+}
+
+.regular, button{
+    font-family: $regular;
 }
