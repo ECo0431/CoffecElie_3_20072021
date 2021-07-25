@@ -1,0 +1,73 @@
+.header{
+    &__box-position{
+        @extend %flexCenterH;
+        
+        padding: 15px;
+        &--picto{
+            width: 20px;
+            margin-right: 11px;
+        }
+        &--txt{
+            margin-right: 32px;
+        }
+    }
+    &__box-decouverte{
+        @extend %flexCenterVCol;
+        background-color: orange;
+        text-align: center;
+        padding-top: 39px;
+
+        &--titre{
+            margin-right: 20px;
+        }
+        &--txt{
+            margin: 12px 0px 0px 5px;
+        }
+        &--bouton{
+            padding: 15px;
+            margin: 32px 75px 20px 82px;
+            border-radius: 999px;
+        }
+    }
+    &__box-titre{
+        background-color: palegreen;
+        margin-top: 86px;
+        
+        &--titre{
+            margin-left: $margeGauH2;
+        }
+    }
+}
+
+.header__box-nav{
+    margin-top: 26px;
+}
+
+.ul{
+    background-color: rgb(147, 129, 230);
+    padding: 0px 20px 0px 32px;
+
+    &__a{
+        background-color: lawngreen;
+        display: flex;
+        padding: 30px 25px 20px 5px;
+        border-radius: 20px;
+        margin-top: 23px;
+
+        &--rond{
+            @extend %flexCenterHV;
+            background-color: pink;
+            width: 25px;
+            height: 25px;
+            border-radius: 999px;
+            position: relative;
+            left: -17px;
+            top: 0px;
+        }
+        &--picto{
+            width: 22px;
+            height: 20px;
+            margin-right: 22px;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.header{
+    background-color: yellow;
+
+    &__box-logo{
+        @extend %flexCenterH;
+        padding: 22px 0px 13px 0px;
+        background-color: yellowgreen;
+        &--logo{
+            width: 165px;
+        }
+    }
+}

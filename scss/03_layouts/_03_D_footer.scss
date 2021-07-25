@@ -1,0 +1,29 @@
+.footer{
+    background-color: gray;
+    margin-top: 35px;
+    padding: 27px 0px 20px 25px;
+
+    &__box-logo{
+        background-color: green;
+
+        &--logo{
+            width: 100px;
+        }
+    }
+    &__box-nav-icones{
+        background-color: red;
+        margin-top: 17px;
+
+        &--picto{
+            width: 15px;
+        }
+    }
+}
+
+.footer__box-nav-icones li, .footer__box-nav li{
+    margin-bottom: 7px;
+}
+
+a:hover{
+    background-color: pink;
+}

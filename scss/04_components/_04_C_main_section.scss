@@ -1,0 +1,49 @@
+
+.nouveau__txt{
+    font-family: $regular;
+    font-size: 0.85em;
+    margin: 6px 13px 6px 13px;
+}
+
+.section{
+    background-color: cornflowerblue;
+
+    &__box-img{
+        position: relative;
+
+        &--img{
+            border-radius: 20px 20px 0px 0px;
+        }
+
+        &--box-nouveau{
+            position: absolute;
+            background-color: crimson;
+            right: 14px;
+            top: 14px;
+            border-radius: 2px;
+        }
+    }
+
+    &__box-description{
+        background-color: darkgoldenrod;
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0px 0px 14px;
+        margin-bottom: 17px;
+        border-radius: 0px 0px 20px 20px;
+
+        &--txt{
+            display: flex;
+            flex-direction: column;
+            background-color: darkturquoise;
+            line-height: 24px;
+            margin-bottom: 14px;
+        }
+        &--box-picto{
+            background-color: deeppink;
+            width: 25px;
+            height: 22px;
+            margin: 7px 24px 0px 0px;
+        }
+    }
+}

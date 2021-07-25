@@ -1,3 +1,24 @@
-body{
-    background-color: rebeccapurple;
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+    border: none;
+    color: black;
 }
+
+.plan{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+    z-index: 9;
+}
+@import "./01_base/01_A_typo";
+@import "./02_utils/02_A_variables";
+@import "./02_utils/02_B_placeholders";
+@import "./03_layouts/03_A_header";
+@import "./03_layouts/03_D_footer";
+@import "./04_components/04_A_header";
+@import "./04_components/04_B_main_article";
+@import "./04_components/04_C_main_section";

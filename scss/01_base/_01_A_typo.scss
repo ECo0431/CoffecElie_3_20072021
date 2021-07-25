@@ -1,0 +1,43 @@
+@import "../02_utils/02_A_variables";
+
+@font-face {
+    font-family: 'Roboto-Light';
+    src: url('/sources/fonts/Roboto/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Regular';
+    src: url('/sources/fonts/Roboto/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Medium';
+    src: url('/sources/fonts/Roboto/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto-Bold';
+    src: url('/sources/fonts/Roboto/Roboto-Bold.ttf');
+}
+
+p{
+    font-family: $regular;
+    font-size: 1.1em;
+    letter-spacing: 0.05px;
+}
+
+h1{
+    font-size: 1.5em;
+}
+
+h1,h2{
+    font-family: $bold;
+}
+
+h3, button, a{
+    font-family: $semiBold;
+}
+
+button, a{
+    font-size: 1em;
+}

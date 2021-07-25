@@ -1,5 +1,236 @@
-body {
-  background-color: rebeccapurple;
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  border: none;
+  color: black;
+}
+
+.plan {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  z-index: 9;
+}
+
+@font-face {
+  font-family: "Roboto-Light";
+  src: url("/sources/fonts/Roboto/Roboto-Light.ttf");
+}
+@font-face {
+  font-family: "Roboto-Regular";
+  src: url("/sources/fonts/Roboto/Roboto-Regular.ttf");
+}
+@font-face {
+  font-family: "Roboto-Medium";
+  src: url("/sources/fonts/Roboto/Roboto-Medium.ttf");
+}
+@font-face {
+  font-family: "Roboto-Bold";
+  src: url("/sources/fonts/Roboto/Roboto-Bold.ttf");
+}
+p {
+  font-family: "Roboto-Regular";
+  font-size: 1.1em;
+  letter-spacing: 0.05px;
+}
+
+h1 {
+  font-size: 1.5em;
+}
+
+h1, h2 {
+  font-family: "Roboto-Bold";
+}
+
+h3, button, a {
+  font-family: "Roboto-Medium";
+}
+
+button, a {
+  font-size: 1em;
+}
+
+.ul__a--rond {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__box-position, .header__box-logo {
+  display: flex;
+  justify-content: center;
+}
+
+.main__article--box-sections {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header__box-decouverte {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.header {
+  background-color: yellow;
+}
+.header__box-logo {
+  padding: 22px 0px 13px 0px;
+  background-color: yellowgreen;
+}
+.header__box-logo--logo {
+  width: 165px;
+}
+
+.footer {
+  background-color: gray;
+  margin-top: 35px;
+  padding: 27px 0px 20px 25px;
+}
+.footer__box-logo {
+  background-color: green;
+}
+.footer__box-logo--logo {
+  width: 100px;
+}
+.footer__box-nav-icones {
+  background-color: red;
+  margin-top: 17px;
+}
+.footer__box-nav-icones--picto {
+  width: 15px;
+}
+
+.footer__box-nav-icones li, .footer__box-nav li {
+  margin-bottom: 7px;
+}
+
+a:hover {
+  background-color: pink;
+}
+
+.header__box-position {
+  padding: 15px;
+}
+.header__box-position--picto {
+  width: 20px;
+  margin-right: 11px;
+}
+.header__box-position--txt {
+  margin-right: 32px;
+}
+.header__box-decouverte {
+  background-color: orange;
+  text-align: center;
+  padding-top: 39px;
+}
+.header__box-decouverte--titre {
+  margin-right: 20px;
+}
+.header__box-decouverte--txt {
+  margin: 12px 0px 0px 5px;
+}
+.header__box-decouverte--bouton {
+  padding: 15px;
+  margin: 32px 75px 20px 82px;
+  border-radius: 999px;
+}
+.header__box-titre {
+  background-color: palegreen;
+  margin-top: 86px;
+}
+.header__box-titre--titre {
+  margin-left: 20px;
+}
+
+.header__box-nav {
+  margin-top: 26px;
+}
+
+.ul {
+  background-color: #9381e6;
+  padding: 0px 20px 0px 32px;
+}
+.ul__a {
+  background-color: lawngreen;
+  display: flex;
+  padding: 30px 25px 20px 5px;
+  border-radius: 20px;
+  margin-top: 23px;
+}
+.ul__a--rond {
+  background-color: pink;
+  width: 25px;
+  height: 25px;
+  border-radius: 999px;
+  position: relative;
+  left: -17px;
+  top: 0px;
+}
+.ul__a--picto {
+  width: 22px;
+  height: 20px;
+  margin-right: 22px;
+}
+
+.main {
+  margin-top: 66px;
+}
+.main__article {
+  background-color: yellow;
+  padding-top: 55px;
+}
+.main__article--box-titre {
+  margin-left: 20px;
+  margin-bottom: 22px;
+}
+.nouveau__txt {
+  font-family: "Roboto-Regular";
+  font-size: 0.85em;
+  margin: 6px 13px 6px 13px;
+}
+
+.section {
+  background-color: cornflowerblue;
+}
+.section__box-img {
+  position: relative;
+}
+.section__box-img--img {
+  border-radius: 20px 20px 0px 0px;
+}
+.section__box-img--box-nouveau {
+  position: absolute;
+  background-color: crimson;
+  right: 14px;
+  top: 14px;
+  border-radius: 2px;
+}
+.section__box-description {
+  background-color: darkgoldenrod;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 0px 0px 14px;
+  margin-bottom: 17px;
+  border-radius: 0px 0px 20px 20px;
+}
+.section__box-description--txt {
+  display: flex;
+  flex-direction: column;
+  background-color: darkturquoise;
+  line-height: 24px;
+  margin-bottom: 14px;
+}
+.section__box-description--box-picto {
+  background-color: deeppink;
+  width: 25px;
+  height: 22px;
+  margin: 7px 24px 0px 0px;
 }
 
 /*# sourceMappingURL=style.css.map */

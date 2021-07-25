@@ -1,0 +1,16 @@
+.main{
+    margin-top: 66px;
+
+    &__article{
+        background-color: yellow;
+        padding-top: 55px;
+
+        &--box-titre{
+            margin-left: $margeGauH2;
+            margin-bottom: 22px;
+        }
+        &--box-sections{
+            @extend %flexCenterHCol;
+        }
+    }
+}
