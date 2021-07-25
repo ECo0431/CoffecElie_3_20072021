@@ -19,12 +19,21 @@
         background: linear-gradient(white, #f6f6f6);
         text-align: center;
         padding-top: 39px;
+        align-items: center;
 
         &--titre{
             margin-right: 20px;
+            @media screen and (min-width: 600px){
+                margin: 20px;
+                font-size: 2em;
+            }
         }
         &--txt{
             margin: 12px 0px 0px 5px;
+            @media screen and (min-width: 600px){
+                margin: 0px;
+                font-size: 1.3em;
+            }
         }
         &--bouton{
             padding: 15px;
@@ -33,10 +42,15 @@
             background: linear-gradient(#e872da, #9f5adc);
             color: white;
             box-shadow: 0px 5px 5px  #e0e1e3;
+            width: 218px;
         }
     }
     &__box-titre{
         margin-top: 86px;
+        @media screen and (min-width: 600px){
+            text-align: center;
+            font-size: 1.3em;
+        }
         
         &--titre{
             margin-left: $margeGauH2;
@@ -44,42 +58,68 @@
     }
 }
 
-.header__box-nav{
-    margin-top: 26px;
+.header__box-nav ul{
+    margin: 26px 0px 0px 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
 }
 
-.ul{
-    padding: 0px 20px 0px 32px;
+.header__box-nav--picto-tel{
+    background-image: url(/sources/picto/picto_mobile.png);
+}
 
-    &__a{
-        box-shadow: 0px 5px 5px  #e0e1e3;
-        display: flex;
-        padding: 30px 25px 20px 5px;
-        border-radius: 20px;
-        margin-top: 23px;
-        color: black;
+.header__box-nav--picto-menu{
+    background-image: url(/sources/picto/picto_menu.png);
+}
 
-        &:hover{
-            background-color: #f5edff;
-        }
+.header__box-nav--picto-store{
+    background-image: url(/sources/picto/picto_store.png);
+}
 
-        &--rond{
-            @extend %flexCenterHV;
-            background-color: #9356dc;
-            color: white;
-            width: 25px;
-            height: 25px;
-            border-radius: 999px;
-            position: relative;
-            left: -17px;
-            top: 0px;
-            font-size: 0.85em;
-            font-family: $light;
-        }
-        &--picto{
-            width: 22px;
-            height: 20px;
-            margin-right: 22px;
-        }
-    }
+.header__box-nav--picto-tel:hover{
+    background-image: url(/sources/picto/picto_mobile_violet.png);
+}
+
+.header__box-nav--picto-menu:hover{
+    background-image: url(/sources/picto/picto_menu_violet.png);
+}
+
+.header__box-nav--picto-store:hover{
+    background-image: url(/sources/picto/picto_store_violet.png);
+}
+
+.header__box-nav--picto-tel, .header__box-nav--picto-menu, .header__box-nav--picto-store{
+    box-shadow: 0px 5px 5px  #e0e1e3;
+    cursor: pointer;
+    width: 322px;
+    height: 63px;
+    background-repeat: no-repeat;
+    background-size: 22px, 20px;
+    background-position: right 92% bottom 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    border-radius: 20px;
+    background-color: #f6f6f6;
+    margin: 0px 20px 25px 0px;
+    
+}
+
+.header__box-nav--picto-tel:hover, .header__box-nav--picto-menu:hover, .header__box-nav--picto-store:hover{
+    background-color: #f5edff;
+}
+
+.rond{
+    background-color: #9356dc;
+    color: white;
+    width: 25px;
+    height: 25px;
+    border-radius: 25px;
+    position: absolute;
+    left: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

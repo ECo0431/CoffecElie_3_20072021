@@ -8,9 +8,17 @@
         &--box-titre{
             margin-left: $margeGauH2;
             margin-bottom: 22px;
+            @media screen and (min-width: 600px){
+                text-align: center;
+                margin-bottom: 60px;
+                font-size: 1.3em;
+            }
         }
         &--box-sections{
-            @extend %flexCenterHCol;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: center;
         }
     }
 }
