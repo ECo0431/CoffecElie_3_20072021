@@ -12,23 +12,23 @@ body {
 
 @font-face {
   font-family: "Roboto-Light";
-  src: url("/sources/fonts/Roboto/Roboto-Light.ttf");
+  src: url("./sources/fonts/Roboto/Roboto-Light.ttf");
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("/sources/fonts/Roboto/Roboto-Regular.ttf");
+  src: url("./sources/fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: "Roboto-Medium";
-  src: url("/sources/fonts/Roboto/Roboto-Medium.ttf");
+  src: url("./sources/fonts/Roboto/Roboto-Medium.ttf");
 }
 @font-face {
   font-family: "Roboto-Bold";
-  src: url("/sources/fonts/Roboto/Roboto-Bold.ttf");
+  src: url("./sources/fonts/Roboto/Roboto-Bold.ttf");
 }
 @font-face {
   font-family: "Shrikhand-Regular";
-  src: url("/sources/fonts/Shrikhand/Shrikhand-Regular.ttf");
+  src: url("./sources/fonts/Shrikhand/Shrikhand-Regular.ttf");
 }
 p {
   font-family: "Roboto-Light";
@@ -378,27 +378,27 @@ span {
 }
 
 .header__box-nav--picto-tel {
-  background-image: url(/sources/picto/picto_mobile.png);
+  background-image: url(./sources/picto/picto_mobile.png);
 }
 
 .header__box-nav--picto-menu {
-  background-image: url(/sources/picto/picto_menu.png);
+  background-image: url(./sources/picto/picto_menu.png);
 }
 
 .header__box-nav--picto-store {
-  background-image: url(/sources/picto/picto_store.png);
+  background-image: url(./sources/picto/picto_store.png);
 }
 
 .header__box-nav--picto-tel:hover {
-  background-image: url(/sources/picto/picto_mobile_violet.png);
+  background-image: url(./sources/picto/picto_mobile_violet.png);
 }
 
 .header__box-nav--picto-menu:hover {
-  background-image: url(/sources/picto/picto_menu_violet.png);
+  background-image: url(./sources/picto/picto_menu_violet.png);
 }
 
 .header__box-nav--picto-store:hover {
-  background-image: url(/sources/picto/picto_store_violet.png);
+  background-image: url(./sources/picto/picto_store_violet.png);
 }
 
 .header__box-nav--picto-tel, .header__box-nav--picto-menu, .header__box-nav--picto-store {
@@ -505,7 +505,7 @@ footer a {
   color: black;
 }
 .section__box-description--box-picto {
-  background-image: url(/sources/picto/picto_coeur.png);
+  background-image: url(./sources/picto/picto_coeur.png);
   background-size: 25px 22px;
   margin: 7px 24px 0px 0px;
   width: 25px;
@@ -513,7 +513,7 @@ footer a {
   cursor: pointer;
 }
 .section__box-description--box-picto:hover {
-  background-image: url(/sources/picto/picto_coeur_rose.png);
+  background-image: url(./sources/picto/picto_coeur_rose.png);
   background-size: 25px 22px;
   transition: ease-in-out 1s;
 }
