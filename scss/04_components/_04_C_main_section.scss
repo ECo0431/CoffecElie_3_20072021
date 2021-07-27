@@ -51,6 +51,7 @@
             &:hover{
                 background-image: url(/sources/picto/picto_coeur_rose.png);
                 background-size: 25px 22px;
+                transition: ease-in-out 1s;
             }
         }
     }

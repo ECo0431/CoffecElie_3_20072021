@@ -1,8 +1,4 @@
 .header{
-
-    @media screen and (min-width: 1000px){
-        background-color: #353535;
-    }
     
     &__box-logo{
         @extend %flexCenterH;

@@ -10,13 +10,6 @@ body{
     background-color: #f6f6f6;
 }
 
-.plan{
-    position: absolute;
-    top: 0;
-    left: 0;
-    opacity: 0.3;
-    z-index: 9;
-}
 @import "./01_base/01_A_typo";
 @import "./02_utils/02_A_variables";
 @import "./02_utils/02_B_placeholders";
