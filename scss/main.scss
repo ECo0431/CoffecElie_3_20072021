@@ -6,6 +6,10 @@
     border: none;
 }
 
+body{
+    background-color: #f6f6f6;
+}
+
 .plan{
     position: absolute;
     top: 0;
@@ -17,6 +21,7 @@
 @import "./02_utils/02_A_variables";
 @import "./02_utils/02_B_placeholders";
 @import "./03_layouts/03_A_header";
+@import "./03_layouts/03_B_main_article";
 @import "./03_layouts/03_D_footer";
 @import "./04_components/04_A_header";
 @import "./04_components/04_B_main_article";

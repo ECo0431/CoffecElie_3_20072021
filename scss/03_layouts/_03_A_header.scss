@@ -1,12 +1,27 @@
 .header{
+    background-color: white;
     
     &__box-logo{
         @extend %flexCenterH;
         padding: 22px 0px 13px 0px;
         box-shadow: 0px 5px 5px  #e0e1e3;
         position: relative;
+
         &--logo{
             width: 165px;
         }
+        &--picto-fleche{
+            position: absolute;
+            top: 25px;
+            left: 21px;
+            width: 20px;
+        }
+
+    }
+
+    &__image{
+        width: 100%;
+        position: relative;
     }
 }
+

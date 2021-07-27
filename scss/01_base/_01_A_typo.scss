@@ -20,6 +20,11 @@
     src: url('/sources/fonts/Roboto/Roboto-Bold.ttf');
 }
 
+@font-face {
+    font-family: 'Shrikhand-Regular';
+    src: url('/sources/fonts/Shrikhand/Shrikhand-Regular.ttf');
+}
+
 p{
     font-family: $light;
     font-size: 1.1em;

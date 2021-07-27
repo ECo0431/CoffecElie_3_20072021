@@ -6,6 +6,10 @@
   border: none;
 }
 
+body {
+  background-color: #f6f6f6;
+}
+
 .plan {
   position: absolute;
   top: 0;
@@ -29,6 +33,10 @@
 @font-face {
   font-family: "Roboto-Bold";
   src: url("/sources/fonts/Roboto/Roboto-Bold.ttf");
+}
+@font-face {
+  font-family: "Shrikhand-Regular";
+  src: url("/sources/fonts/Shrikhand/Shrikhand-Regular.ttf");
 }
 p {
   font-family: "Roboto-Light";
@@ -67,6 +75,9 @@ button, a {
   flex-direction: column;
 }
 
+.header {
+  background-color: white;
+}
 .header__box-logo {
   padding: 22px 0px 13px 0px;
   box-shadow: 0px 5px 5px #e0e1e3;
@@ -74,6 +85,203 @@ button, a {
 }
 .header__box-logo--logo {
   width: 165px;
+}
+.header__box-logo--picto-fleche {
+  position: absolute;
+  top: 25px;
+  left: 21px;
+  width: 20px;
+}
+.header__image {
+  width: 100%;
+  position: relative;
+}
+
+.main-menu {
+  background-color: #f6f6f6;
+  border-radius: 30px 30px 0px 0px;
+  position: relative;
+  top: -35px;
+}
+.main-menu__box-titre {
+  display: flex;
+  justify-content: space-between;
+}
+.main-menu__box-titre--titre {
+  font-family: "Shrikhand-Regular";
+  margin: 32px 0px 0px 20px;
+  font-size: 1.75em;
+}
+.main-menu__box-titre--coeur {
+  background-image: url(/sources/picto/picto_coeur.png);
+  background-size: 25px 22px;
+  margin: 38px 36px 0px 0px;
+  width: 25px;
+  height: 22px;
+  cursor: pointer;
+}
+.main-menu__box-titre--coeur:hover {
+  background-image: url(/sources/picto/picto_coeur_rose.png);
+  background-size: 25px 22px;
+  transition: ease-in-out 1s;
+}
+
+.article-menu__box-titre {
+  margin: 29px 0px 0px 20px;
+}
+.article-menu__box-titre--titre {
+  font-family: "Roboto-Light";
+  font-size: 1em;
+  margin-bottom: 5px;
+}
+.article-menu__box-titre--trait {
+  background-color: #99e2d0;
+  width: 40px;
+  height: 3px;
+}
+
+.box-sections-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 14px;
+}
+.box-sections-menu__section {
+  width: 349px;
+  height: 70px;
+  margin-bottom: 10px;
+  border-radius: 15px;
+  box-shadow: 0px 0px 13px #d9dadb;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.box-sections-menu__section--txt {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 349px;
+  height: 50px;
+  line-height: 25px;
+  padding-left: 15px;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.box-sections-menu__section--check {
+  border-radius: 0px 15px 15px 0px;
+  width: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box-sections-menu__section--check--img {
+  width: 22px;
+  height: 20px;
+  transform: rotate(-360deg);
+  opacity: 0;
+}
+.box-sections-menu__section:hover > .box-sections-menu__section--check {
+  background-color: #99e2d0;
+  width: 75px;
+  transition: ease-in-out 0.4s;
+}
+.box-sections-menu__section:hover > .box-sections-menu__section--check .box-sections-menu__section--check--img {
+  transform: rotate(0deg);
+  opacity: 1;
+  transition-duration: 0.5s;
+}
+
+.box-sections-menu h3 {
+  font-size: 1.1em;
+  font-family: "Roboto-Medium";
+}
+
+.zone-txt {
+  width: 217px;
+  font-size: 0.9em;
+}
+
+p {
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+span {
+  font-family: "Roboto-Medium";
+  font-size: 1em;
+  position: absolute;
+  right: 20px;
+  bottom: 0;
+  font-size: 0.9em;
+}
+
+.anim-section1 {
+  animation: animSection 1s;
+}
+
+.anim-section2 {
+  animation: animSection 1.5s;
+}
+
+.anim-section3 {
+  animation: animSection 2s;
+}
+
+.anim-section4 {
+  animation: animSection 2.2s;
+}
+
+.anim-section5 {
+  animation: animSection 2.4s;
+}
+
+.anim-section6 {
+  animation: animSection 2.6s;
+}
+
+.anim-section7 {
+  animation: animSection 2.7s;
+}
+
+.anim-section8 {
+  animation: animSection 2.8s;
+}
+
+.anim-section9 {
+  animation: animSection 2.9s;
+}
+
+@keyframes animSection {
+  0% {
+    opacity: 0;
+    margin-bottom: 40px;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.zone-bouton {
+  display: flex;
+  justify-content: center;
+}
+.zone-bouton--bouton {
+  padding: 15px;
+  margin: 32px 75px 20px 82px;
+  border-radius: 999px;
+  background: linear-gradient(#e872da, #9f5adc);
+  color: white;
+  box-shadow: 0px 5px 5px #e0e1e3;
+  width: 218px;
+  cursor: pointer;
+}
+.zone-bouton--bouton:hover {
+  opacity: 0.8;
+  box-shadow: 0px 5px 5px #c2c3c5;
 }
 
 .footer {
