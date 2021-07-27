@@ -12,23 +12,23 @@ body {
 
 @font-face {
   font-family: "Roboto-Light";
-  src: url("./sources/fonts/Roboto/Roboto-Light.ttf");
+  src: url("../sources/fonts/Roboto/Roboto-Light.ttf");
 }
 @font-face {
   font-family: "Roboto-Regular";
-  src: url("./sources/fonts/Roboto/Roboto-Regular.ttf");
+  src: url("../sources/fonts/Roboto/Roboto-Regular.ttf");
 }
 @font-face {
   font-family: "Roboto-Medium";
-  src: url("./sources/fonts/Roboto/Roboto-Medium.ttf");
+  src: url("../sources/fonts/Roboto/Roboto-Medium.ttf");
 }
 @font-face {
   font-family: "Roboto-Bold";
-  src: url("./sources/fonts/Roboto/Roboto-Bold.ttf");
+  src: url("../sources/fonts/Roboto/Roboto-Bold.ttf");
 }
 @font-face {
   font-family: "Shrikhand-Regular";
-  src: url("./sources/fonts/Shrikhand/Shrikhand-Regular.ttf");
+  src: url("../sources/fonts/Shrikhand/Shrikhand-Regular.ttf");
 }
 p {
   font-family: "Roboto-Light";
