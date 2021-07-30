@@ -506,7 +506,7 @@ footer a {
   color: black;
 }
 .section__box-description--box-picto {
-  background-image: url(./sources/picto/picto_coeur.png);
+  background-image: url(../sources/picto/picto_coeur.png);
   background-size: 25px 22px;
   margin: 7px 24px 0px 0px;
   width: 25px;
@@ -514,7 +514,7 @@ footer a {
   cursor: pointer;
 }
 .section__box-description--box-picto:hover {
-  background-image: url(./sources/picto/picto_coeur_rose.png);
+  background-image: url(../sources/picto/picto_coeur_rose.png);
   background-size: 25px 22px;
   transition: ease-in-out 1s;
 }
