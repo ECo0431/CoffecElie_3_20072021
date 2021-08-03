@@ -134,7 +134,7 @@ button, a {
   font-size: 1.75em;
 }
 .main-menu__box-titre--coeur {
-  background-image: url(/sources/picto/picto_coeur.png);
+  background-image: url(../sources/picto/picto_coeur.png);
   background-size: 25px 22px;
   margin: 38px 36px 0px 0px;
   width: 25px;
@@ -142,7 +142,7 @@ button, a {
   cursor: pointer;
 }
 .main-menu__box-titre--coeur:hover {
-  background-image: url(/sources/picto/picto_coeur_rose.png);
+  background-image: url(../sources/picto/picto_coeur_rose.png);
   background-size: 25px 22px;
   transition: ease-in-out 1s;
 }
