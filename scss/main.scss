@@ -10,6 +10,34 @@ body{
     background-color: #f6f6f6;
 }
 
+.loader{
+    background: linear-gradient(#e872da, #9f5adc);
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: loader 3s forwards ease-out;
+
+    &__logo{
+        width: 300px;
+    }
+}
+
+@keyframes loader {
+    from {
+        transform: translateY(0);
+        opacity: 1;
+    }
+  
+    to {
+        transform: translateY(-2000px);
+        opacity: 0;
+    }
+  }
+
 @import "./01_base/01_A_typo";
 @import "./02_utils/02_A_variables";
 @import "./02_utils/02_B_placeholders";

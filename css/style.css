@@ -10,6 +10,31 @@ body {
   background-color: #f6f6f6;
 }
 
+.loader {
+  background: linear-gradient(#e872da, #9f5adc);
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: loader 3s forwards ease-out;
+}
+.loader__logo {
+  width: 300px;
+}
+
+@keyframes loader {
+  from {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  to {
+    transform: translateY(-2000px);
+    opacity: 0;
+  }
+}
 @font-face {
   font-family: "Roboto-Light";
   src: url("../sources/fonts/Roboto/Roboto-Light.ttf");
@@ -357,6 +382,10 @@ span {
   box-shadow: 0px 5px 5px #e0e1e3;
   width: 218px;
   cursor: pointer;
+}
+.header__box-decouverte--bouton:hover {
+  opacity: 0.8;
+  box-shadow: 0px 5px 5px #c2c3c5;
 }
 .header__box-titre {
   margin-top: 86px;
